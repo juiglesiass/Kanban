@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kanban</title>
+</head>
+<body>
+    <main class="kanban">
+        <!--COLUMN 1 pendente-->
+        <div class="kanban-column" data-id="1">
+            <div class="kanban-title">
+                <h2>
+                    Pendente
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card">
+                    <div class="badge low">
+                        <span>Baixa prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Landing page da cafeteria GreatCoffe
+                    </p>
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                0
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                0
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/mulher 1.PNG" alt="avatar 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="kanban-card">
+                    <div class="badge low">
+                        <span>Baixa prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        DashBoard para a loja Bétulas
+                    </p>
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                0
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/mulher 2.PNG" alt="avatar 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="kanban-card">
+                    <div class="badge medium">
+                        <span>Média prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Desenho de botão para cliente Julia
+                    </p>
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                2
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                0
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/homem 2.PNG" alt="avatar 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--COLUMN 2 em front end-->
+        <div class="kanban-column" data-id="2">
+            <div class="kanban-title">
+                <h2>
+                    Em front-end
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card">
+                    <div class="badge medium">
+                        <span>Média prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Catálogo de produtos do petshop PetCats
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                1
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                2
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/mulher 2.PNG" alt="avatar 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="kanban-card">
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Página de notícia do São Paulo Times
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                2
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                2
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/homem 1.PNG" alt="avatar 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--COLUMN 3 em back end-->
+        <div class="kanban-column" data-id="3">
+            <div class="kanban-title">
+                <h2>
+                    Em back-end
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card">
+                    <div class="badge low">
+                        <span>Baixa prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Formulário para pesquisa da Boogle Searches
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                2
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                3
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/mulher 1.PNG" alt="avatar 1">
+                        </div>
+                    </div>
+                </div>
+                <div class="kanban-card">
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Página de Cadastro e Login para a loja ShopNow
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                5
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                4
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/homem 2.PNG" alt="avatar 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--COLUMN 4 em teste-->
+        <div class="kanban-column" data-id="4">
+            <div class="kanban-title">
+                <h2>
+                    Em teste
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card">
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Landing page da loja BotWheels
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                6
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                8
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/homem 1.PNG" alt="avatar 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--COLUMN 5 concluido-->
+        <div class="kanban-column" data-id="5">
+            <div class="kanban-title">
+                <h2>
+                    Concluído
+                </h2>
+                <button class="add-card">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+            <div class="kanban-cards">
+                <div class="kanban-card">
+                    <div class="badge high">
+                        <span>Alta prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Catálogo de produtos do mercado Palmeiras
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                11
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                7
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/homem 2.PNG" alt="avatar 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="kanban-card">
+                    <div class="badge medium">
+                        <span>Média prioridade</span>
+                    </div>
+                    <p class="card-title">
+                        Formulário de pesquisa do IPGE
+                    </p>
+
+                    <div class="card-info">
+                        <div class="card-icons">
+                            <p>
+                                <i class="fa-regular fa-comment"></i>
+                                8
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-paperclip"></i>
+                                9
+                            </p>
+                        </div>
+                        <div class="user">
+                            <img src="src/images/mulher 1.PNG" alt="avatar 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
