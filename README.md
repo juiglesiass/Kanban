@@ -18,10 +18,10 @@ https://juiglesiass.github.io/Kanban/
 
 * CSS para estilização visual das colunas e cards.
 
-<h2>📌 Futuros aprimoramentos:</h2>
+<h2>📌 Futuros aprimoramentos</h2>
 Adicionar JavaScript para interatividade de arrastar e soltar cards para diferentes colunas.
 
-<h2>Autor</h2>
+<h2>✒ Autor</h2>
 
 * Julia Iglesias - byjuliaiglesias@gmail.com
 <h3>Com auxílio de:</h3>
