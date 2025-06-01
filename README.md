@@ -14,9 +14,9 @@ https://juiglesiass.github.io/Kanban/
 
 <h2>🚀 Tecnologias Utilizadas</h2>
 
-* HTML para a estruturação do conteúdo.
+* **HTML** para a estruturação do conteúdo.
 
-* CSS para estilização visual das colunas e cards.
+* **CSS** para estilização visual das colunas e cards.
 
 <h2>📌 Futuros aprimoramentos</h2>
 Adicionar JavaScript para interatividade de arrastar e soltar cards para diferentes colunas.
