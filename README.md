@@ -1,6 +1,29 @@
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F74700&width=435&lines=Visualize+o+projeto+no+link+abaixo!" alt="Typing SVG" /></a>
 
- ##
- 
+
+
+
+
+<h1>Quadro de Tarefas Kanban</h1>
+Este é um projeto de um quadro de tarefas Kanban desenvolvido com HTML e CSS. O sistema permite a visualização de tarefas através de colunas organizadas por fases de andamento.
+
+<h2>🖥️ Visualize o Projeto</h2>
+Você pode acessar e visualizar o quadro Kanban através do link abaixo:
+
 https://juiglesiass.github.io/Kanban/
+
+<h2>🚀 Tecnologias Utilizadas</h2>
+
+* HTML para a estruturação do conteúdo.
+
+* CSS para estilização visual das colunas e cards.
+
+<h2>📌 Futuros aprimoramentos:</h2>
+Adicionar JavaScript para interatividade de arrastar e soltar cards para diferentes colunas.
+
+<h2>Autor</h2>
+
+* Julia Iglesias - byjuliaiglesias@gmail.com
+<h3>Com auxílio de:</h3>
+
+* Larissa Vitória Kich - larissakich04@gmail.com
